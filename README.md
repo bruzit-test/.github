@@ -10,6 +10,7 @@ BruzIT Test organization profile. The organization itself is defined in [`test.y
 ## Features
 
 - **Organization profile** - Public profile shown on the [BruzIT Test GitHub Organization](https://github.com/bruzit-test) page, in [`profile/README.md`](profile/README.md).
+- **Renovate preset** - Shared [Renovate](https://docs.renovatebot.com/) configuration for the organization's repositories, in [`renovate-config.json`](renovate-config.json); repositories extend it with `local>bruzit-test/.github:renovate-config`.
 
 ## Support
 
@@ -22,6 +23,7 @@ Community, best effort; [open a GitHub issue](../../issues).
 | [`megalinter.yaml`](.github/workflows/megalinter.yaml)                     | Pull request                      | Lint changed files with MegaLinter, autofix via app; required check.               |
 | [`semantic-release.yaml`](.github/workflows/semantic-release.yaml)         | Push to `main`                    | Version, changelog and GitHub release by semantic-release (`release` environment). |
 | [`megalinter-scheduled.yaml`](.github/workflows/megalinter-scheduled.yaml) | Weekly (Monday 06:00 UTC), manual | Lint the whole codebase with MegaLinter.                                           |
+| [`renovate.yaml`](.github/workflows/renovate.yaml)                         | Hourly, manual                    | Update dependencies in every organization repository with Renovate via app.        |
 
 ## Contributing
 
