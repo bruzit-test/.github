@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.2.0](https://github.com/bruzit-test/.github/compare/v0.1.0...v0.2.0) (2026-11-21)
+
+### Features
+
+* add renovate preset and caller ([f3112c8](https://github.com/bruzit-test/.github/commit/f3112c867344724675a06ad34c74eb001a481216))
+
 ## [0.1.0](https://github.com/bruzit-test/.github/compare/v0.0.0...v0.1.0) (2026-11-19)
 
 ### Features
