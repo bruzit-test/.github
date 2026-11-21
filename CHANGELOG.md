@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.3.0](https://github.com/bruzit-test/.github/compare/v0.2.0...v0.3.0) (2026-11-21)
+
+### Features
+
+* ignore autofix commits on renovate branches ([86b0f42](https://github.com/bruzit-test/.github/commit/86b0f42ec147e64ac1a44c356425ac6e3ec93a8f))
+
 ## [0.2.0](https://github.com/bruzit-test/.github/compare/v0.1.0...v0.2.0) (2026-11-21)
 
 ### Features
