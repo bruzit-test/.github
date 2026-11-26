@@ -14,7 +14,7 @@ BruzIT Test organization profile. The organization itself is defined in [`test.y
 
 ## Support
 
-Community, best effort; [open a GitHub issue](../../issues).
+[Open a GitHub issue](../../issues). I answer best effort, as a community project.
 
 ## Integration and Deployment
 
@@ -27,7 +27,7 @@ Community, best effort; [open a GitHub issue](../../issues).
 
 ## Contributing
 
-Open a pull request to `main`. Commits follow the [Conventional Commits 1.0.0 specification](https://www.conventionalcommits.org/en/v1.0.0/), from which semantic-release sets versions and the changelog automatically.
+Open a pull request to `main`. Write commits per the [Conventional Commits 1.0.0 specification](https://www.conventionalcommits.org/en/v1.0.0/); semantic-release sets the version and changelog from them.
 
 ## License and Copyright
 
